@@ -13,7 +13,7 @@ class Posts extends React.Component {
   
 
   componentDidMount() { 
-    axios.get('https://turbotax.intuit.ca/tips/wp-json/wp/v2/posts/')
+    axios.get('https://turbotax.intuit.ca/tips/wp-json/wp/v2/posts?count=4')
     .then(res => {
       this.setState({ post: res.data });
     })
@@ -29,8 +29,7 @@ class Posts extends React.Component {
             {this.state.post.map(wp => {
                 return(
                 <div>
-                  <h1>{wp.title.rendered}</h1>
-                  {/* <p>{single.content.rendered}</p> */}
+                  {wp.title.rendered}
                 </div>                                        
                 );
             })}
