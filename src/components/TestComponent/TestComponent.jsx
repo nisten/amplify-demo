@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import testComponent from './testComponent.module.scss';
-import { Jumbotron, Button, Container, Row, Col, Badge } from 'reactstrap';
+import { Jumbotron, Button, Container, Row, Col, Badge, Media} from 'reactstrap';
 
 const TestComponent = () => (
 <Container>
@@ -33,6 +33,18 @@ const TestComponent = () => (
     </Jumbotron>
     </Col>
   </Row>
+  <Row>
+    <Col className="text-center">
+    <Media>
+      <Media body>
+        <Media heading>
+        Tax Tips
+        </Media>
+        </Media>
+    </Media>
+    </Col>
+  </Row>
+  <Row />
 </Container>
 );
 
