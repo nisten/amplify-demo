@@ -10,7 +10,7 @@ const Footer = () => (
     <div className="container">
       <div className="row">
         <div className="col-lg-12 col-md-12">
-          <p>Copyright © Your Website 2018</p>
+          <p>Copyright © Nisten 2018</p>
           <p className="footer-gatsby">Proudly published with Gatsby</p>
         </div>
       </div>
