@@ -16,6 +16,7 @@ const Header = () => {
             <a className="navbar-brand" href="https://turbotax.intuit.ca/tax-software/index.jsp">
               <img src={logo} alt={"logo"} className="logo-default" />
             </a>
+            <link rel="preconnect" href="https://turbotax.intuit.ca"></link>
           </Navbar.Brand>
           {/* <Nav className="navbar-nav ml-auto">
             <a className="dropdown nav-item nav-link" key="1" href="https://github.com/AVivero/gatsby-redux-starter">

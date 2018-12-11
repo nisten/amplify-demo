@@ -29,7 +29,6 @@ const TestComponent = () => (
       <Container fluid className="text-center">
       <h4 className="display-2">Handles all tax situations</h4>
       <p className="lead">TurboTax automatically searches over 400 tax deductions and credits to make sure you get your maximum refund.</p>
-
       </Container>
     </Jumbotron>
     </Col>
