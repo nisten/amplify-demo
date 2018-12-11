@@ -20,14 +20,14 @@ const TestComponent = () => (
   </Row>
   <Row>
     <Col className="text-center">
-     <Badge color="secondary">Canada’s #1 Tax Software. Trusted by Millions of Canadians.</Badge>
+     <p>Canada’s #1 Tax Software. Trusted by Millions of Canadians.</p>
     </Col>
   </Row>
   <Row>
-    <Col>
-    <Jumbotron fluid>
+    <Col sm={{ size: 6, order: 1, offset: 3 }}>
+    <Jumbotron fluid >
       <Container fluid className="text-center">
-      <h4 className="display-2">Handles all tax situations</h4>
+      <h4 className="display-4">Handles all tax situations</h4>
       <p className="lead">TurboTax automatically searches over 400 tax deductions and credits to make sure you get your maximum refund.</p>
       </Container>
     </Jumbotron>
