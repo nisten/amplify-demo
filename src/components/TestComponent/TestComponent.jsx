@@ -7,18 +7,30 @@ const TestComponent = () => (
   <Container>
     <Row>
       <Col>
-      <Jumbotron fluid>
-        <h1 className="display-1">Save 15%</h1>
+      <Jumbotron fluid className="jumbo">
+        <Container fluid className="text-center">
+        <h1 className="display-2">Save 15%</h1>
         <p className="lead">on TurboTax and get an early start</p>
-        <hr className="my-2" />
-          <Button color="warning">Start for Free</Button>
+          <Button color="warning" >Start for Free</Button>
         <p className="my-2">TurboTax Advantage member? Sign in</p>
+        </Container>
       </Jumbotron>
       </Col>
     </Row>
     <Row>
+      <Col className="text-center">
+       <Badge color="secondary">Canada’s #1 Tax Software. Trusted by Millions of Canadians.</Badge>
+      </Col>
+    </Row>
+    <Row>
       <Col>
-       <Badge color="primary">Canada’s #1 Tax Software. Trusted by Millions of Canadians.</Badge>
+      <Jumbotron fluid>
+        <Container fluid className="text-center">
+        <h4 className="display-2">Handles all tax situations</h4>
+        <p className="lead">TurboTax automatically searches over 400 tax deductions and credits to make sure you get your maximum refund.</p>
+
+        </Container>
+      </Jumbotron>
       </Col>
     </Row>
   </Container>
