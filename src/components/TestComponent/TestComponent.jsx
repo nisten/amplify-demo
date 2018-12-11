@@ -38,7 +38,7 @@ const TestComponent = () => (
     <Media>
       <Media body>
         <Media heading>
-        Tax Tips
+        Tax Tips Feed from Intuit
         </Media>
         </Media>
     </Media>
