@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
         <div className="mainWrapper">
           {children}
         </div>
-         {/* <Footer /> */}
+         <Footer />
       </>
     )}
   />
