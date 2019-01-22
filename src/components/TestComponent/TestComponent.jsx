@@ -6,45 +6,8 @@ import { Jumbotron, Button, Container, Row, Col, Badge, Media} from 'reactstrap'
 
 const TestComponent = () => (
 <Container>
-  <Row>
-    <Col>
-    <Jumbotron fluid className="jumbo">
-      <Container fluid className="text-center">
-      <h1 className="display-2">Save 15%</h1>
-      <p className="lead">on TurboTax and get an early start</p>
-        <Button color="warning" >Start for Free</Button>
-      <p className="my-2">TurboTax Advantage member? Sign in</p>
-      </Container>
-    </Jumbotron>
-    </Col>
-  </Row>
-  <Row>
-    <Col className="text-center">
-     <p>Canada’s #1 Tax Software. Trusted by Millions of Canadians.</p>
-    </Col>
-  </Row>
-  <Row>
-    <Col sm={{ size: 6, order: 1, offset: 3 }}>
-    <Jumbotron fluid >
-      <Container fluid className="text-center">
-      <h4 className="display-4">Handles all tax situations</h4>
-      <p className="lead">TurboTax automatically searches over 400 tax deductions and credits to make sure you get your maximum refund.</p>
-      </Container>
-    </Jumbotron>
-    </Col>
-  </Row>
-  <Row>
-    <Col className="text-center">
-    <Media>
-      <Media body>
-        <Media heading>
-        Tax Tips Feed from Intuit
-        </Media>
-        </Media>
-    </Media>
-    </Col>
-  </Row>
-  <Row />
+<iframe src="https://bootstrapshuffle.com/preview?project=89035eb139a9cf99fefa141199baef832169d8c5&page=index.html" heigh="100%" width="100%" border="0"/>
+  
 </Container>
 );
 

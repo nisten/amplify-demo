@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import Navbar from 'react-bootstrap/lib/Navbar';
 import Nav from 'react-bootstrap/lib/Nav';
 import headerStyles from './header.module.scss';
-import logo from '../../images/turbotax-logo.svg';
+import logo from '../../images/oneledgerlogo.png';
 
 const Header = () => {
   return (
@@ -13,10 +13,10 @@ const Header = () => {
       <Navbar className="navbar navbar-light navbar-expand-lg navbar-static-top sticky-header">
         <Navbar.Header>
           <Navbar.Brand className="navbar-header">
-            <a className="navbar-brand" href="https://turbotax.intuit.ca/tax-software/index.jsp">
+            <a className="navbar-brand" href="https://oneledger.io">
               <img src={logo} alt={"logo"} className="logo-default" />
             </a>
-            <link rel="preconnect" href="https://turbotax.intuit.ca"></link>
+            <link rel="preconnect" href="https://oneledger.io"></link>
           </Navbar.Brand>
           {/* <Nav className="navbar-nav ml-auto">
             <a className="dropdown nav-item nav-link" key="1" href="https://github.com/AVivero/gatsby-redux-starter">
