@@ -7,7 +7,6 @@ import Blog from '../../components/Blog/Blog';
 const IndexPage = () => (
   <App>
     <TestComponent />
-    
   </App>
 );
 
