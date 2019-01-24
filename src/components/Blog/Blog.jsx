@@ -25,7 +25,7 @@ class Blog extends Component {
     render() {
         return (
     
-          <div className="text-center">
+          <div>
             {this.state.post.map(wp => {
                 return(
                 <div>
