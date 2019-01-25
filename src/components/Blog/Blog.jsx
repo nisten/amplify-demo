@@ -13,7 +13,7 @@ class Blog extends Component {
   
 
   componentDidMount() { 
-    axios.get('https://turbotax.intuit.ca/tips/wp-json/wp/v2/posts/?limit=3')
+    axios.get('http://turbotax.intuit.ca/tips/wp-json/wp/v2/posts/?limit=3')
     .then(res => {
       this.setState({ post: res.data });
     })
